@@ -7,8 +7,12 @@ Simple ms to file upload using middleware that wraps around Busboy
 npm i install
 
 # USE
-```bash
+
 node server.js
+
+# DOCKER
+docker build -t file-upload .
+docker run -ti -p 8000:8000 -v /Users/Pablo/Downloads/file-upload/example:/app/uploads file-upload:latest
 
 
 # Usage
