@@ -1,11 +1,7 @@
 FROM node
-MAINTAINER Pablo alana
-ARG CONT_IMG_VER
-ARG USER_ID=431
-ARG GROUP_ID=433
+MAINTAINER Pablo Aldana
 
-LABEL version ${CONT_IMG_VER}
-LABEL description Example expressjs site.
+LABEL dSimple ms to file upload using middleware that wraps around Busboy.
 
 ENV CONT_IMG_VER ${CONT_IMG_VER}
 ENV PORT 8000
